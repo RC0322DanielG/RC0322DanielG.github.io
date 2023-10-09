@@ -76,16 +76,50 @@
             float: right;
             margin-right: 5%;
         }
+    .input_form{
+        margin-top: 100px;
+        color: white;
+    }
+  
+  input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: white;
+  border: 2px solid turquoise;
+  border-radius: 40px;
+}
+
+fieldset{
+    max-width: 50%;
+    min-width: 20%;
+    float: center;
+border: 2px solid turquoise;
+border-radius: 10px;
+}
+
+.submit{
+    width: 20%;
+}
+
+.submit:hover{
+    background-color: turquoise;
+    color: rgb(10, 5, 10);
+}
+.form{
+    align: center;
+}
     </style>
 
 </head>
 <body>
 <div class="container_style">
     <h1>The DREAM comes true...</h1>
-    <img src="https://media3.giphy.com/media/CEAVZ18bkkhudtgMFZ/giphy.gif?cid=6c09b9527jbw90qvpxy67l0vtch4lp2y6k2n1wmhhe7m72u2&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="hyundai logo" width="150px" class="logo">
-    <div><img src="https://images.unsplash.com/photo-1609331340465-3be30433482d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80" class="hero-image" width="95%"></div>
+    <img src="./Automotive_files/giphy.gif" alt="hyundai logo" width="150px" class="logo">
+    <div><img src="./Automotive_files/photo-1609331340465-3be30433482d" class="hero-image" width="95%"></div>
     <p class="hero_parag">This is a world of cars. Sure this website will change, but for now it's just the begining !<br></p>
-    <a href="https://hyundai-motor.md/ru/" target="_blank">CLICK HERE FOR A GORGEOUS CAR -- &gt;<button class="button_1">CLICK</button></a>
+    <a href="https://hyundai-motor.md/ru/" target="_blank">CLICK HERE FOR A GORGEOUS CAR -->;<button class="button_1">CLICK</button></a>
 
     <p class="main_text">Hyundai is a South Korean multinational automotive manufacturer that produces various cars, SUVs, trucks, and buses since its inception in 1967
         . Hyundai's lineup includes subcompact to luxury sedans and SUVs such as the Accent, Elantra, Sonata, Ioniq, Veloster, Kona, Tucson, Santa Fe, and Palisade
@@ -94,9 +128,9 @@
         . Hyundai's vehicles are sold in 193 countries through 5,000 dealerships and showrooms.
         .</p>
 
-        <iframe width="100%" height="400"  src="https://www.youtube.com/embed/STiGhy0Uc4k?si=fqnvMvHNc_Wlx9Oq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="100%" height="400" src="./Automotive_files/STiGhy0Uc4k.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
-        <audio controls>
+        <audio controls="">
             <source src="./site_files/Automotive_files/japanese-garden-139092.mp3" type="audio/mpeg">
         </audio>
 
@@ -108,7 +142,7 @@
         </ul>
 
     <table>
-        <tbody><tr id="gas">
+        <tr id="gas">
             <th>Diesel</th>
             <th>Hybrid</th>
             <th>Gas</th>
@@ -121,7 +155,26 @@
         <tr>
             <td colspan="3">2024</td>
         </tr>
-    </tbody></table>
+    </table>
+
+<div class="form" align= "center">
+    <form class="input_form">
+    <fieldset>
+        <label for="fname">Nume familie: </label>
+        <input type="text" name="fname">
+        <label for="lname">Prenume: </label>
+        <input type="text" name>
+
+        <input type="submit" value="Submit" class="submit">
+    </fieldset>  
+</form>
+</div>
+    
+
+
+
+
+
 </div>
     
 
