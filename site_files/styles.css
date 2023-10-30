@@ -1,5 +1,5 @@
         *{
-            background-color: rgb(10, 5, 10);
+            
         }
 
         body {
@@ -89,7 +89,7 @@
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  color: white;
+  color:rgb(10, 5, 10);
   border: 2px solid turquoise;
   border-radius: 40px;
 }
